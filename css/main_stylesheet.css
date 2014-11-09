@@ -1,0 +1,197 @@
+/*--- Main ----*/
+
+html,body {
+	background-color: #f7f6f3;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+footer {
+	background-color: #0d2a37;
+	height: 300px;
+}
+
+.clear_float {
+	clear: both;
+}
+
+/*--- Background Colours ----*/
+
+.white {
+	background-color: white;
+}
+
+
+/*--- Margins ---*/
+.no-margin {
+	margin: 0;
+}
+
+.margin-bottom-none {
+	margin-bottom: 0;
+}
+
+.margin-top-15 {
+	margin-top: 15px;
+}
+
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+
+
+/*--- Home Page ----*/
+
+.header_home {
+	margin: 0 auto;
+	margin-top: -100px;
+	margin-bottom: 50px;
+	color: white;
+	font-size: 20px;
+	width: 700px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-style: italic;
+} 
+
+.header_home ul li {
+	list-style: none;
+	display: inline;
+	padding: 30px;
+}
+
+.main_image_container {
+	width: 100%;
+	height: 400px;
+	background-image: url('https://farm6.staticflickr.com/5598/15738237055_8b69e77951_h.jpg');
+    background-repeat: no-repeat;
+    background-position:0px -200px;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.main_image_container h1 {
+	font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main_image_container p {
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.welcome {
+	padding-top: 70px;
+	padding-bottom: 110px;
+	text-align: center;
+	background: white;
+	font-size: 20px;
+	font-weight: 200;
+	color: black;
+}
+
+.welcome_title {
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 3px solid black;
+	padding-bottom: 10px;
+	width: 210px;
+	font-weight: 400;
+	font-size: 36px;
+	color: #5f5f5f;
+	margin: 0 auto;
+	color: black;
+}
+
+.logins_container {
+	width: 100%;
+	text-align: center;
+}
+
+.center_login {
+	width: 1100px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.login_box {
+	background-color: white;
+	width: 400px;
+	height: 430px;
+	float: left;
+	margin-left: 100px;
+	z-index: 1;
+	margin-top: -35px;
+}
+
+.login_header {	
+	height: 70px;
+	padding-top: 15px;
+	padding-bottom: 8px;
+	font-size: 30px;
+	background: #50bfa4;
+	border-bottom: 1px solid #f4f1f1;
+	color: white;
+	text-transform: uppercase;
+}
+
+.login_body {
+	padding: 10px;
+	color: #c2beb7;
+}
+
+.login_body input[type=text], input[type=password] {
+	width: 330px;
+	height: 55px;
+	margin-top: 20px;
+	padding-left: 20px;
+	background-color: #eae6e2;
+	-webkit-appearance:none;
+	border: none;
+}
+
+.login_body input[type=submit] {
+	width: 330px;
+	height: 55px;
+	margin-top: 20px;
+	padding-left: 20px;
+	background: #50bfa4;
+	-webkit-appearance:none;
+	border: none;
+	color: white;
+}
+
+#sign_up_button {
+	width: 80px;
+	height: 40px;
+	padding: 0;
+	background-color: white;
+	color: #c2beb7;
+	border: 1px solid #eae6e2;
+}
+
+.bottom_image_container {
+	width: 100%;
+	height: 400px;
+	background-image: url('https://farm3.staticflickr.com/2925/13993578771_79a5b2fba0_k.jpg');
+    background-repeat: no-repeat;
+    background-position:-230px -510px;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.bottom_image_container h1 {
+	font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.bottom_image_container p {
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    font-family: "Times New Roman", Georgia, Serif;
+}
