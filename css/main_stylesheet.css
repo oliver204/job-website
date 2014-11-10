@@ -360,6 +360,9 @@ input[type=text], input[type=password] {
 	margin-left: 0px;
 	margin-top: 30px;
 }	
-	
+
+.bottom_image_container {
+    padding-top: 40px;
+}	
 	
 }
