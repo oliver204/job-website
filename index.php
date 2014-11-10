@@ -36,12 +36,15 @@
 	 <div class="white-100-percent">
 		<div class="looking_widget">
 			 <div class="looking_widget_center">
-				<div class="looking_widget_input_left">
+				<div class="looking_widget_input">
 					 <input type="text" placeholder="Im Looking For...">
 				</div>
-				<div class="looking_widget_input_right">
+				<div class="looking_widget_input">
 					 <input type="text" placeholder="Postcode">
 				</div>
+				<div class="looking_widget_input_button">
+					<input type="submit" value="Search Jobs">
+				</div>				
 			 </div>
 		</div>
 	 </div>	 
