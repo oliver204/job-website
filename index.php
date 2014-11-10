@@ -14,7 +14,7 @@
 	 	 <div class="header_home">
 		 	 <ul>
 			 	 <li>Register</li>
-			 	 <li><img height="100px" width="100px" src="images/hunter-logo-2.png"></li>
+			 	 <li><img id="hunter-logo-home" src="images/hunter-logo-2.png"></li>
 			 	 <li>How it works</li>
 		 	 </ul>
 	 	 </div>
@@ -33,16 +33,19 @@
 		 </div>
 	 </div>
 	 
-	 <div class="im_looking_for_container">
-		 <div class="im_looking_for_container_center beige">
-			<div class="postcode_looking">
-				 <input type="text" placeholder="Im Looking For...">
-			</div>
-			<div class="postcode_looking-2">
-				 <input type="text" placeholder="Postcode">
-			</div>
-		 </div>
-	 </div>
+	 <div class="white-100-percent">
+		<div class="looking_widget">
+			 <div class="looking_widget_center">
+				<div class="looking_widget_input_left">
+					 <input type="text" placeholder="Im Looking For...">
+				</div>
+				<div class="looking_widget_input_right">
+					 <input type="text" placeholder="Postcode">
+				</div>
+			 </div>
+		</div>
+	 </div>	 
+	 
 	<div class="clear_float"></div>		 
 	 
 	 <div class="logins_container">
@@ -59,7 +62,7 @@
 					 <p class="m-none">Don't have an account? <input id="sign_up_button" type="submit" value="Sign Up"></p>
 				 </div>
 			 </div>
-			 <div class="login_box">
+			 <div class="login_box login-space">
 				 <div class="login_header">
 					<span class="glyphicon glyphicon-user"></span> Employee
 				 </div>

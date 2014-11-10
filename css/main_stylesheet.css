@@ -113,7 +113,7 @@ footer {
 	margin-bottom: 50px;
 	color: white;
 	font-size: 20px;
-	width: 700px;
+	width: 500px;
     font-family: "Source Sans Pro", Georgia, Serif;
     font-style: italic;
 } 
@@ -122,6 +122,11 @@ footer {
 	list-style: none;
 	display: inline;
 	padding: 30px;
+}
+
+#hunter-logo-home {
+	width: 100px;
+	height: 100px;
 }
 
 .main_image_container {
@@ -170,25 +175,41 @@ footer {
 	color: #34495E;
 }
 
-.im_looking_for_container {
+.white-100-percent {
 	background: white;
 	padding-bottom: 140px;
 }
 
-.im_looking_for_container_center {
-	width: 1100px;
+.looking_widget {
+	background-color: #f7f6f3;
+	height: 100px;
+	width: 90%;
+	min-width: 900px;
+	margin: 0 auto;
+}
+
+.looking_widget_center {
+	width: 900px;
 	margin: 0 auto;
 	height: 100px;
 }
 
-.postcode_looking {
+.looking_widget_input_left {
 	float: left;
-	margin-left: 135px;
+	width: 400px;
+	margin-top: 17px;
 }
 
-.postcode_looking-2 {
-	float: left;
-	margin-left: 170px;
+.looking_widget_input_right {
+	float: right;
+	width: 400px;
+	margin-top: 17px;
+}
+
+.looking_widget input[type=text] {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 35px;
 }
 
 .logins_container {
@@ -197,7 +218,7 @@ footer {
 }
 
 .center_login {
-	width: 1100px;
+	width: 900px;
 	height: 300px;
 	margin: 0 auto;
 }
@@ -207,9 +228,12 @@ footer {
 	width: 400px;
 	height: 430px;
 	float: left;
-	margin-left: 100px;
 	z-index: 1;
 	margin-top: -35px;
+}
+
+.login-space {
+	margin-left: 100px;
 }
 
 .login_header {	
@@ -279,4 +303,63 @@ input[type=text], input[type=password] {
     font-size: 40px;
     font-style: italic;
     font-family: "Source Sans Pro", Georgia, Serif;
+}
+
+@media (max-width : 900px) {	
+.looking_widget {
+	min-width: 805px;
+}	
+	
+.looking_widget_center {
+	width: 805px;
+}
+	
+.center_login {
+	width: 805px;
+}
+.login-space {
+	margin-left: 5px;
+}
+}
+
+@media (max-width : 805px) {
+
+.header_home {
+	width: 330px;
+}
+
+#hunter-logo-home {
+	width: 50px;
+	height: 50px;
+}	
+
+.header_home ul {
+	padding-left: 0px;
+}
+
+.header_home ul li {
+	padding: 10px;
+}
+	
+.white-100-percent {
+	padding-bottom: 70px;
+}	
+
+.looking_widget {
+	min-width: 400px;
+	height: 185px;
+}	
+.looking_widget_center {
+	width: 400px;
+}	
+
+.center_login {
+	width: 400px;
+}	
+.login-space {
+	margin-left: 0px;
+	margin-top: 30px;
+}	
+	
+	
 }
