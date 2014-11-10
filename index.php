@@ -62,7 +62,7 @@
 					 <input type="password" placeholder="Password">
 					 <input type="submit" value="Log In">
 					 <p class="m-b-none m-t-15">Forgotten your password?</p>
-					 <p class="m-none">Don't have an account? <input id="sign_up_button" type="submit" value="Sign Up"></p>
+					 <p class="m-none">Don't have an account? &nbsp;&nbsp;<input id="sign_up_button" type="submit" value="Sign Up"></p>
 				 </div>
 			 </div>
 			 <div class="login_box login-space">
@@ -74,13 +74,13 @@
 					 <input type="password" placeholder="Password">
 					 <input type="submit" value="Log In">
 					 <p class="m-b-none m-t-15">Forgotten your password?</p>
-					 <p class="m-none">Don't have an account? <input id="sign_up_button" type="submit" value="Sign Up"></p>
+					 <p class="m-none">Don't have an account? &nbsp;&nbsp;<input id="sign_up_button" type="submit" value="Sign Up"></p>
 				 </div>				 
 			 </div>
 		 </div>
 	 </div>
 	 
-	 <div class="clear_float m-b-30"></div>
+	 <div class="clear_float"></div>
 
 
 

@@ -6,7 +6,7 @@ html, body {
   font-weight: 300;
   line-height: 1.72222;
   color: #34495e;
-  background-color: #f7f6f3;
+  background-color: white;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -85,8 +85,36 @@ p {
 
 /*--- Main ----*/
 
+header {
+	text-align: center;
+	height: 150px;
+	width: 100%;
+	background: #50bfa4;
+}
+
+.header_container {
+	width: 600px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+#header_title  {
+  position: relative;
+  top:45px;
+  left:10px;
+  font-size: 33px;
+}
+
+header #logo {
+  position: relative;
+  top:40px;
+  left:-17px;
+  width: 80px;
+  height: 80px;
+}
+
 footer {
-	background-color: #0d2a37;
+	background-color: #34495E;
 	height: 300px;
 }
 
@@ -104,6 +132,14 @@ footer {
 	background-color: #f7f6f3;
 }
 
+/*--- Text Colours ----*/
+
+.white_text {
+	color: white;
+}
+
+/*--- Input & Select Styling ----*/
+
 input[type=text], input[type=password] {
 	width: 330px;
 	height: 55px;
@@ -120,6 +156,30 @@ input[type=submit] {
 	border: none;
 	color: white;
 }
+
+select {
+	width: 330px;
+	height: 55px;
+	background: transparent;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+	border-radius: 0!important;
+	border: none;
+	color: white;
+	padding-left: 20px;
+	padding-bottom: 4px;
+}
+
+.styled-select {
+	width: 330px;
+	height: 55px;
+	overflow: hidden;
+	background: url('../images/arrow.png') no-repeat #50bfa4;
+	background-position: 280px 20px;
+	background-size: 26px 15px;
+	border-radius: 0px;
+}
+
 
 /*--- Home Page ----*/
 
@@ -231,6 +291,8 @@ input[type=submit] {
 .logins_container {
 	width: 100%;
 	text-align: center;
+	background-color: #f7f6f3;
+	padding-bottom: 150px;
 }
 
 .center_login {
@@ -397,4 +459,91 @@ input[type=submit] {
     padding-top: 40px;
 }	
 	
+}
+
+
+/*------ Employee Registration Page --------*/
+
+.registration_title {
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 3px solid #34495E;
+	padding-bottom: 10px;
+	width: 290px;
+	font-weight: 400;
+	font-size: 23px;
+	color: #5f5f5f;
+	margin: 0 auto;
+	margin-top: 50px;
+	color: #34495E;
+}
+
+.registration_container {
+	background-color: #f7f6f3;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 90%;
+	height: 1000px;
+	margin-bottom: 80px;
+	max-width: 900px;
+	padding-top: 40px;
+}
+
+.registration_container_center {
+	width: 840px;
+	margin: 0 auto;
+}
+
+.registration_inner {
+	float: left;
+	width: 420px;
+	height: auto;
+}
+
+.registration_container .border-right {
+	border-right: 1px solid #34495E;
+}
+
+.registration_sub_title {
+	width: 750px;
+	margin: 0 auto;
+}
+
+.registration_inner input[type="text"] {
+	background: white;
+	margin-left: 45px;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.registration_inner .styled-select {
+	margin-left: 45px;
+	margin-top: 20px;
+}
+
+.personal_details {
+	height: 370px;
+}
+
+.date_of_birth {
+	width: 750px;
+	margin: 0 auto;
+	height: 140px;
+}
+
+.registration_inner_dob  {
+	float: left;
+	width: 250px;
+	height: auto;
+}
+
+.registration_inner_dob .styled-select {
+	width: 230px;
+	margin-left: 10px;
+	background-position: 180px 20px;
+}
+
+
+.contact_details {
+	height: 140px;
 }
