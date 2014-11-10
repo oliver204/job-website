@@ -5,6 +5,7 @@
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<!--Main Css-->
 	<link href="css/main_stylesheet.css" rel="stylesheet">
+	<link href="css/standard_stylesheet.css" rel="stylesheet">
 </head>
 
  <body>
@@ -27,10 +28,22 @@
 				<div class="welcome_title">
 					 Welcome
 				</div>
-					<p class="margin-top-15">"Find out what you like doing best and get someone to pay you for doing it." - Katherine Whitehorn</p>
+					<p class="m-t-15">"Find out what you like doing best and get someone to pay you for doing it." - Katherine Whitehorn</p>
 			 </div>
 		 </div>
 	 </div>
+	 
+	 <div class="im_looking_for_container">
+		 <div class="im_looking_for_container_center beige">
+			<div class="postcode_looking">
+				 <input type="text" placeholder="Im Looking For...">
+			</div>
+			<div class="postcode_looking-2">
+				 <input type="text" placeholder="Postcode">
+			</div>
+		 </div>
+	 </div>
+	<div class="clear_float"></div>		 
 	 
 	 <div class="logins_container">
 		 <div class="center_login">
@@ -42,8 +55,8 @@
 					 <input type="text" placeholder="Username">
 					 <input type="password" placeholder="Password">
 					 <input type="submit" value="Log In">
-					 <p class="margin-bottom-none margin-top-15">Forgotten your password?</p>
-					 <p class="no-margin">Don't have an account? <input id="sign_up_button" type="submit" value="Sign Up"></p>
+					 <p class="m-b-none m-t-15">Forgotten your password?</p>
+					 <p class="m-none">Don't have an account? <input id="sign_up_button" type="submit" value="Sign Up"></p>
 				 </div>
 			 </div>
 			 <div class="login_box">
@@ -54,14 +67,14 @@
 					 <input type="text" placeholder="Username">
 					 <input type="password" placeholder="Password">
 					 <input type="submit" value="Log In">
-					 <p class="margin-bottom-none margin-top-15">Forgotten your password?</p>
-					 <p class="no-margin">Don't have an account? <input id="sign_up_button" type="submit" value="Sign Up"></p>
+					 <p class="m-b-none m-t-15">Forgotten your password?</p>
+					 <p class="m-none">Don't have an account? <input id="sign_up_button" type="submit" value="Sign Up"></p>
 				 </div>				 
 			 </div>
 		 </div>
 	 </div>
 	 
-	 <div class="clear_float margin-bottom-30"></div>
+	 <div class="clear_float m-b-30"></div>
 
 
 
