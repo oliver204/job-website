@@ -488,10 +488,9 @@ select {
 	background-color: #f7f6f3;
 	margin: 0 auto;
 	margin-top: 30px;
-	width: 90%;
 	height: 1000px;
 	margin-bottom: 80px;
-	max-width: 900px;
+	width: 900px;
 	padding-top: 40px;
 }
 
@@ -541,6 +540,10 @@ select {
 	float: left;
 	width: 250px;
 	height: auto;
+}
+
+.registration_inner_dob select {
+	width: 230px;
 }
 
 .registration_inner_dob .styled-select {
