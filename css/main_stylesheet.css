@@ -207,6 +207,8 @@ select {
 
 .main_image_container {
 	width: 100%;
+	max-width: 1600px;
+	margin: 0 auto;
 	height: 400px;
 	background-image: url('https://farm6.staticflickr.com/5598/15738237055_8b69e77951_h.jpg');
     background-repeat: no-repeat;
@@ -261,6 +263,7 @@ select {
 	height: 100px;
 	width: 80%;
 	min-width: 900px;
+	max-width: 1500px;
 	margin: 0 auto;
 }
 
@@ -359,6 +362,8 @@ select {
 
 .bottom_image_container {
 	width: 100%;
+	max-width: 1600px;
+	margin: 0 auto;
 	height: 400px;
 	background-image: url('https://farm3.staticflickr.com/2925/13993578771_79a5b2fba0_k.jpg');
     background-repeat: no-repeat;
@@ -380,7 +385,7 @@ select {
     font-family: "Source Sans Pro", Georgia, Serif;
 }
 
-@media (max-width : 900px) {
+@media only screen and (max-width : 900px) {
 .looking_widget input[type=text] {
 	width: 290px;
 	margin-left: 26.5;
@@ -406,7 +411,7 @@ select {
 }
 }
 
-@media (max-width : 805px) {
+@media only screen and (max-width : 805px) {
 
 .header_home {
 	width: 330px;
@@ -460,6 +465,7 @@ select {
 }	
 	
 }
+
 
 
 /*------ Employee Registration Page --------*/

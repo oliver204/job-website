@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--Bootstrap Css-->
 	<link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
