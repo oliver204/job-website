@@ -180,6 +180,19 @@ select {
 	border-radius: 0px;
 }
 
+/*--- Landing Page ----*/
+
+.landing_background {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-image: url('../images/landing_image.jpg');
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    text-align: left;
+}
+
+
 
 /*--- Home Page ----*/
 
